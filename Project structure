@@ -1,0 +1,17 @@
+safeword-website/
+│
+├── .env.local                # Your API keys (not committed)
+├── .gitignore                # What files to ignore (see below)
+├── README.md                 # Your project readme
+├── package.json              # Project dependencies and scripts
+├── next.config.js            # Optional, environment variables config
+│
+├── pages/
+│   ├── index.js              # Home page component
+│   └── api/
+│       └── chat.js           # API route to handle AI chat requests
+│
+├── public/                   # Static assets (images, favicon, etc.)
+│
+└── styles/
+    └── Home.module.css       # CSS module for styling Home page
